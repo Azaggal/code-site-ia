@@ -1,0 +1,43 @@
+site_name: Mes Révisions IA
+site_description: Fiches de révision ludiques et structurées pour cours, TDs et annales
+site_url: https://azaggal.github.io/revision-ia/  # À adapter avec ton URL GitHub
+theme:
+  name: material
+  language: fr
+  palette: 
+    # Mode clair et mode sombre automatique
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Passer au mode sombre
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Passer au mode clair
+  features:
+    - navigation.tabs # Menu horizontal en haut
+    - search.suggest # Suggestions de recherche
+    - content.code.copy # Bouton pour copier le code/formules
+  nav:
+  - Accueil: index.md
+  - 📖 Fiches de Cours:
+      - cours/
+  - ✍️ Exercices & TD:
+      - exercices/
+  - 🎯 Prépa Examens (Annales):
+      - revisions/
+
+markdown_extensions:
+  - pymdownx.arithmatex: # Pour afficher les maths (LaTeX)
+      generic: true
+  - pymdownx.tasklist: # Pour faire des listes de révision cochables
+      custom_checkbox: true
+  - admonition: # Pour faire des blocs "Note", "Attention", "Astuce"
+  - pymdownx.details: # Pour les réponses cachées des quiz
+  - pymdownx.emoji:  # Pour les emojis étendus
