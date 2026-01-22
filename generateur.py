@@ -7,7 +7,7 @@ import fitz
 from mistralai import Mistral
 
 # --- CONFIGURATION ---
-API_KEY = "Or0xeFkf3TTDOcwQC1wkFICk0WEeN4eb"  # Remplace par ta clé Mistral
+API_KEY =   # Remplace par ta clé Mistral
 client = Mistral(api_key=API_KEY)
 
 # Dossiers d'entrée et de sortie
