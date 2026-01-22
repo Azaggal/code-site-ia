@@ -10,6 +10,7 @@ Voici la fiche d'exercices structurée selon vos instructions strictes, avec les
 ### 🧩 **EXERCICES CORRIGÉS**
 
 !!! example "🔢 Exercice 1 : Script de base pour transformer une image en PDF carré (Partie I)"
+!!! example ""
     **Énoncé** :
     > Réaliser un script `sys1_part_1.sh` qui prend en argument un fichier `.jpg`, le rogne en carré centré, et génère un PDF. Les étapes incluent :
     > - Extraire la dimension minimale de l'image avec `identify`.

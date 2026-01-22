@@ -41,3 +41,4 @@ markdown_extensions:
   - admonition: # Pour faire des blocs "Note", "Attention", "Astuce"
   - pymdownx.details: # Pour les réponses cachées des quiz
   - pymdownx.emoji:  # Pour les emojis étendus
+  - md_in_html:

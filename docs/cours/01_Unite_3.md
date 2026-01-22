@@ -69,10 +69,8 @@
 Une **variable shell** est locale à une instance de shell et n'est pas héritée par les processus enfants. Une **variable d'environnement** est gérée par l'OS et transmise aux processus enfants (via `export` ou `setenv` en C).
 </details>
 
-<details>
-<summary>🔍 Question 2 : Que fait la commande `ls *.txt` et qui effectue l'expansion ?</summary>
-`ls *.txt` liste tous les fichiers avec l'extension `.txt`. L'expansion est effectuée par le **shell** (via **globbing**), pas par la commande `ls`.
-</details>
+??? note "🔍 Question 2 : Que fait la commande `ls *.txt` et qui effectue l'expansion ?"
+    `ls *.txt` liste tous les fichiers avec l'extension `.txt`. L'expansion est effectuée par le **shell** (via **globbing**), pas par la commande `ls`.
 
 <details>
 <summary>🔍 Question 3 : Pourquoi utiliser `"$@"` plutôt que `$*` dans un script ?</summary>

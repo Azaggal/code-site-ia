@@ -1,3 +1,5 @@
+#https://squidfunk.github.io/mkdocs-material/reference/footnotes/
+
 import os
 from pathlib import Path
 import re
@@ -153,10 +155,8 @@ def main():
                         4. **Quiz** (OBLIGATOIRE mais flexible) :
                             [Entre **1 et 5 questions max** - priorise la qualité sur la quantité]
                             Format strict :
-                            <details>
-                            <summary>🔍 Question 1 : [Question sur le concept principal]</summary>
-                            [Réponse concise en 2-3 phrases max]
-                            </details>
+                            ??? note "🔍 Question 1 : [Question sur le concept principal]"
+                                [Réponse concise en 3-4 phrases max]
                             <!-- Ajoute d'autres questions UNIQUEMENT si elles apportent une réelle valeur pédagogique -->
                             *Règles* :
                             - Chaque question doit tester un point différent
